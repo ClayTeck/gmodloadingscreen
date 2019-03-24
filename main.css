@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700');
+
+body {
+    background: url('background.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    text-align: center;
+    color: white;
+    font-family: "Roboto Slab";
+}
+
+header h1:nth-child(1) {
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+main .rules {
+    margin-top: 30px;
+}
+
+main .rules .rectangle {
+    width: 1160px;
+    height: 130px;
+    background: #E8E8E8;
+    border-radius: 20px;
+    font-family: "Roboto Slab";
+}
+
+main .rules .rectangle .padd {
+    text-align: center;
+    margin-top: 48px;
+}
+
+main .rules .rectangle .padd h1 {
+    font-size: 2em;
+    color: #151B52;
+}
+
+main .admin {
+    margin-top: 30px;
+    font-family: "Roboto Slab";
+}
+
+main .admin .rectangle {
+    width: 1160px;
+    height: 240px;
+    background: #E3E3E3;
+    border-radius: 20px;
+}
+
+main .admin .rectangle .profile {
+    margin-top: 20px;
+}
+
+main .admin .rectangle .profile:nth-child(1) {
+    margin-left: 50px;
+}
+
+main .admin .rectangle .profile img {
+    width: 100px;
+    height: 100px;
+    background: #C4C4C4;
+    border-radius: 50%;
+}
+
+main .admin .rectangle .profile .nickname {
+    margin-left: 5px;
+}
+
+main .info {
+    margin-top: 20px;
+    font-family: "Roboto Slab";
+}
+
+main .info .rectangle {
+    width: 772px;
+    height: 165px;
+    background: #E1E1E1;
+    border-radius: 30px;
+}
+
+main .info .rectangle .padd {
+    margin-top: 40px;
+}
